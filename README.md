@@ -13,3 +13,4 @@ first lets look at Gaussian class
 
 The main function of this class is to create a Gaussian shape with a specific ***mean*** and ***variance*** .
 For example , when you create an object from Gaussian class `Gaussian x(10.0,5.0);` it will create a gaussian with mean 10.0 and variance = 5.0  like that : 
+![](Imgs\gaussian.png)
