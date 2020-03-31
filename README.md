@@ -20,6 +20,10 @@ mmmmmmmmmmm , so we created a gaussian shape !! <br>
 
 In fact creating gaussian shapes only will not help , we need to do some operations like multiplying or adding two gaussian together
 so there are two helper functions that do these operations.
-- `Gaussian MultiplyGaussian( Gaussian  & x,  Gaussian  & y);`
-- `Gaussian AddGaussian( Gaussian  & x,  Gaussian  & y);`
+- `Gaussian MultiplyGaussian( Gaussian  & x,  Gaussian  & y);`<br>
+This function takes two gaussian , multiply them together and return a new gaussian , this gaussian is more accurate than two gaussians (because its a compination of two sources) <br>
+<img src="https://github.com/fouad1995/Kalman-Filter/blob/master/Imgs/multiply gaussian.png" width="300" height="300"><br>
+The Red one is the result and note that its more certain(low variance) than others and has a mean in between of two means <br><br>
 
+- `Gaussian AddGaussian( Gaussian  & x,  Gaussian  & y);`
+Adding two gaussian means that we lose information so the new gaussian expected to has a large variance and large mean
