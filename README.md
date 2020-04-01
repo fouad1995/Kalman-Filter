@@ -52,5 +52,5 @@ so ***Belief gaussian*** will represent our confidence about the position of the
 For example , if the robot stays at position 2 and recieve a command like that (move 1 meter forward) , ideally if there is no error in motion the robot will go and stay at position 3 , but in reality the motion has error so the robot most likely to be at position 3 but also its likely to be around this position (for example it might be at any position between 2 and 4 like in figure below)<br>
 
 <p align="center">
-<img src="https://github.com/fouad1995/Kalman-Filter/blob/master/Imgs/multiply gaussianMotion.png" width="300" height="300"><br>
+<img src="https://github.com/fouad1995/Kalman-Filter/blob/master/Imgs/gaussianMotion.png" width="300" height="300"><br>
 </p>
